@@ -1452,6 +1452,233 @@
       "E": "Redeem (e.g. CIV)",
       "F": "Lend (FINANCING - identifies direction of collateral)",
       "G": "Borrow (FINANCING - identifies direction of collateral)"
+    },
+    "59": {
+      "0": "Day (or session)",
+      "1": "Good Till Cancel (GTC)",
+      "2": "At the Opening (OPG)",
+      "3": "Immediate Or Cancel (IOC)",
+      "4": "Fill Or Kill (FOK)",
+      "5": "Good Till Crossing (GTX)",
+      "6": "Good Till Date (GTD)",
+      "7": "At the Close"
+    },
+    "61": {
+      "0": "Normal",
+      "1": "Flash",
+      "2": "Background"
+    },
+    "63": {
+      "0": "Regular / FX Spot settlement (T+1 or T+2 depending on currency)",
+      "1": "Cash (TOD / T+0)",
+      "2": "Next Day (TOM / T+1)",
+      "3": "T+2",
+      "4": "T+3",
+      "5": "T+4",
+      "6": "Future",
+      "7": "When And If Issued",
+      "8": "Sellers Option",
+      "9": "T+5",
+      "B": "Broken date - for FX expressing non-standard tenor, SettlDate (64) must be specified",
+      "C": "FX Spot Next settlement (Spot+1, aka next day)"
+    },
+    "65": {
+      "CD": "EUCP with lump-sum interest rather than discount price",
+      "WI": "'When Issued' for a security to be reissued under an old CUSIP or ISIN"
+    },
+    "71": {
+      "0": "New",
+      "1": "Replace",
+      "2": "Cancel",
+      "3": "Preliminary (without MiscFees and NetMoney) (Removed/Replaced)",
+      "4": "Calculated (includes MiscFees and NetMoney) (Removed/Replaced)",
+      "5": "Calculated without Preliminary (sent unsolicited by broker, includes MiscFees and NetMoney) (Removed/Replaced)",
+      "6": "Reversal"
+    },
+    "77": {
+      "C": "Close",
+      "F": "FIFO",
+      "O": "Open",
+      "R": "Rolled"
+    },
+    "81": {
+      "0": "Regular",
+      "1": "Soft Dollar",
+      "2": "Step-In",
+      "3": "Step-Out",
+      "4": "Soft-dollar Step-In",
+      "5": "Soft-dollar Step-Out",
+      "6": "Plan Sponsor"
+    },
+    "87": {
+      "0": "accepted (successfully processed)",
+      "1": "block level reject",
+      "2": "account level reject",
+      "3": "received (received, not yet processed)",
+      "4": "incomplete",
+      "5": "rejected by intermediary",
+      "6": "allocation pending",
+      "7": "reversed"
+    },
+    "88": {
+      "0": "Unknown account(s)",
+      "1": "Incorrect quantity",
+      "10": "Unknown or stale ExecID",
+      "11": "Mismatched data",
+      "12": "Unknown ClOrdID",
+      "13": "Warehouse request rejected",
+      "2": "Incorrect averageg price",
+      "3": "Unknown executing broker mnemonic",
+      "4": "Commission difference",
+      "5": "Unknown OrderID (37)",
+      "6": "Unknown ListID (66)",
+      "7": "Other (further in Text (58))",
+      "8": "Incorrect allocated quantity",
+      "9": "Calculation difference"
+    },
+    "94": {
+      "0": "New",
+      "1": "Reply",
+      "2": "Admin Reply"
+    },
+    "97": {
+      "N": "Original Transmission",
+      "Y": "Possible Resend"
+    },
+    "98": {
+      "0": "None / Other",
+      "1": "PKCS (Proprietary)",
+      "2": "DES (ECB Mode)",
+      "3": "PKCS / DES (Proprietary)",
+      "4": "PGP / DES (Defunct)",
+      "5": "PGP / DES-MD5 (See app note on FIX web site)",
+      "6": "PEM / DES-MD5 (see app note on FIX web site)"
+    },
+    "102": {
+      "0": "Too late to cancel",
+      "1": "Unknown order",
+      "18": "Invalid price increment",
+      "2": "Broker / Exchange Option",
+      "3": "Order already in Pending Cancel or Pending Replace status",
+      "4": "Unable to process Order Mass Cancel Request",
+      "5": "OrigOrdModTime (586) did not match last TransactTime (60) of order",
+      "6": "Duplicate ClOrdID (11) received",
+      "99": "Other"
+    },
+    "103": {
+      "0": "Broker / Exchange option",
+      "1": "Unknown symbol",
+      "10": "Invalid Investor ID",
+      "11": "Unsupported order characteristic",
+      "12": "Surveillence Option",
+      "13": "Incorrect quantity",
+      "14": "Incorrect allocated quantity",
+      "15": "Unknown account(s)",
+      "18": "Invalid price increment",
+      "2": "Exchange closed",
+      "3": "Order exceeds limit",
+      "4": "Too late to enter",
+      "5": "Unknown order",
+      "6": "Duplicate Order (e.g. dupe ClOrdID)",
+      "7": "Duplicate of a verbally communicated order",
+      "8": "Stale order",
+      "9": "Trade along required",
+      "99": "Other"
+    },
+    "104": {
+      "A": "All or None (AON)",
+      "B": "Market On Close (MOC) (held to close)",
+      "C": "At the close (around/not held to close)",
+      "D": "VWAP (Volume Weighted Average Price)",
+      "I": "In touch with",
+      "L": "Limit",
+      "M": "More Behind",
+      "O": "At the Open",
+      "P": "Taking a Position",
+      "Q": "At the Market (previously called Current Quote)",
+      "R": "Ready to Trade",
+      "S": "Portfolio Shown",
+      "T": "Through the Day",
+      "V": "Versus",
+      "W": "Indidcation - Working Away",
+      "X": "Crossing Opportunity",
+      "Y": "At the Midpoint",
+      "Z": "Pre-open"
+    },
+    "113": {
+      "N": "Indicates the party sending message will report trade",
+      "Y": "Indicates the party receiving message must report trade"
+    },
+    "114": {
+      "N": "Indicates the broker is not required to locate",
+      "Y": "Indicates the broker is responsible for locating the stock"
+    },
+    "121": {
+      "N": "Do Not Execute Forex After Security Trade",
+      "Y": "Execute Forex After Security Trade"
+    },
+    "123": {
+      "N": "Sequence Reset, Ignore Msg Seq Num (N/A For FIXML - Not Used)",
+      "Y": "Gap Fill Message, Msg Seq Num Field Valid"
+    },
+    "127": {
+      "A": "Unknown Symbol",
+      "B": "Wrong Side",
+      "C": "Quantity Exceeds Order",
+      "D": "No Matching Order",
+      "E": "Price Exceeds Limit",
+      "F": "Calculation Difference",
+      "Z": "Other"
+    },
+    "130": {
+      "N": "Not Natural",
+      "Y": "Natural"
+    },
+    "139": {
+      "1": "Regulatory (e.g. SEC)",
+      "10": "Per transaction",
+      "11": "Conversion",
+      "12": "Agent",
+      "13": "Transfer Fee",
+      "14": "Security Lending",
+      "2": "Tax",
+      "3": "Local Commission",
+      "4": "Exchange Fees",
+      "5": "Stamp",
+      "6": "Levy",
+      "7": "Other",
+      "8": "Markup",
+      "9": "Consumption Tax"
+    },
+    "141": {
+      "N": "No",
+      "Y": "Yes, reset sequence numbers"
+    },
+    "150": {
+      "0": "New",
+      "3": "Done for day",
+      "4": "Canceled",
+      "5": "Replaced",
+      "6": "Pending Cancel (e.g. result of Order Cancel Request <F>)",
+      "7": "Stopped",
+      "8": "Rejected",
+      "9": "Suspended",
+      "A": "Pending New",
+      "B": "Calculated",
+      "C": "Expired",
+      "D": "Restated (Execution Report <8> sent unsolicited by sellside, with ExecRestatementReason <378> set)",
+      "E": "Pending Replace (e.g. result of Order Cancel/Replace Request <G>)",
+      "F": "Trade (partial fill or fill)",
+      "G": "Trade Correct",
+      "H": "Trade Cancel",
+      "I": "Order Status",
+      "J": "Trade in a Clearing Hold",
+      "K": "Trade has been released to Clearing",
+      "L": "Triggered or Activated by System"
+    },
+    "156": {
+      "D": "Divide",
+      "M": "Multiply"
     }
   }
 }

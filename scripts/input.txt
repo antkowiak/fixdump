@@ -1,31 +1,3 @@
-1 = Buy
+M = Multiply
 
-2 = Sell
-
-3 = Buy minus
-
-4 = Sell plus
-
-5 = Sell short
-
-6 = Sell short exempt
-
-7 = Undisclosed (valid for IOI and List Order messages only)
-
-8 = Cross (orders where counterparty is an exchange, valid for all messages except IOIs)
-
-9 = Cross short
-
-A = Cross short exempt
-
-B = "As Defined" (for use with multileg instruments)
-
-C = "Opposite" (for use with multileg instruments)
-
-D = Subscribe (e.g. CIV)
-
-E = Redeem (e.g. CIV)
-
-F = Lend (FINANCING - identifies direction of collateral)
-
-G = Borrow (FINANCING - identifies direction of collateral)
+D = Divide
