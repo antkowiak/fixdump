@@ -1,0 +1,7 @@
+B = Buy
+
+S = Sell
+
+T = Trade
+
+X = Cross

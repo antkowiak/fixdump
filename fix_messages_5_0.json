@@ -1135,6 +1135,12 @@
     "1139": "ExchangeSpecialInstructions"
   },
   "fields": {
+    "4": {
+      "B": "Buy",
+      "S": "Sell",
+      "T": "Trade",
+      "X": "Cross"
+    },
     "21": {
       "1": "Automated execution order, private, no Broker intervention",
       "2": "Automated execution order, public, Broker intervention OK",
