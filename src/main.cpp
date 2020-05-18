@@ -43,7 +43,7 @@ int main(int argc, const char *argv[])
     options.emplace_back(option(option_type::OT_SHORT, option_value_num::OVN_NONE, "?")); // help
     options.emplace_back(option(option_type::OT_SHORT, option_value_num::OVN_NONE, "h")); // help
     options.emplace_back(option(option_type::OT_SHORT, option_value_num::OVN_NONE, "s")); // skip original
-    options.emplace_back(option(option_type::OT_SHORT, option_value_num::OVN_ONE, "f")); // filter
+    options.emplace_back(option(option_type::OT_SHORT, option_value_num::OVN_ONE, "f"));  // filter
 
     // parse command line options
     rda::cmdline_options cmd(options);
@@ -78,7 +78,7 @@ int main(int argc, const char *argv[])
     else
     {
         // read from files
-        for (auto & s : cmd.unclaimed)
+        for (auto &s : cmd.unclaimed)
         {
             // TODO
         }
