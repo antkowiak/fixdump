@@ -6,6 +6,7 @@
 //
 
 #include <cstdlib>
+#include <fstream>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -17,6 +18,9 @@
 #include "fix_message_util.h"
 #include "json.h"
 #include "platform_defs.h"
+
+PUSH_WARN_DISABLE
+WARN_DISABLE_MS(6262) // stack size
 
 void help()
 {
@@ -71,18 +75,44 @@ int main(int argc, const char *argv[])
 
         while (std::getline(std::cin, line))
         {
-            rda::fix_message fm(line);
+            const rda::fix_message fm(line);
             rda::fix::fix_message_util::GetInstance().print_fix_message(fm, filter, print_orig_msg);
         }
     }
     else
     {
-        // read from files
+        // read fix messages from files
         for (auto &s : cmd.unclaimed)
         {
-            // TODO
+            try
+            {
+                // try to open the file
+                std::fstream f;
+                f.open(s, std::ios::in);
+                if (f.is_open())
+                {
+                    // read all lines from the file
+                    std::string line;
+                    while (std::getline(f, line))
+                    {
+                        // construct a FIX message and print it
+                        const rda::fix_message fm(line);
+                        rda::fix::fix_message_util::GetInstance().print_fix_message(fm, filter, print_orig_msg);
+                    }
+                }
+                else
+                {
+                    std::cout << "Error opening file: " << s << std::endl;
+                }
+            }
+            catch (...)
+            {
+                std::cout << "Exception encountered when attempting to access file: " << s << std::endl;
+            }
         }
     }
 
     return EXIT_SUCCESS;
 }
+
+POP_WARN_DISABLE
