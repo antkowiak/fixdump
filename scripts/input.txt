@@ -1,3 +1,11 @@
-M = Multiply
+0 = Daily Open / Close / Settlement entry
 
-D = Divide
+1 = Session Open / Close / Settlement entry
+
+2 = Delivery Settlement entry
+
+3 = Expected entry
+
+4 = Entry from previous business day
+
+5 = Theoretical Price value
