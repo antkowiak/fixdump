@@ -35,7 +35,7 @@
     <None Include="scripts\process.sh">
       <Filter>scripts</Filter>
     </None>
-    <None Include="scripts\generate_header.sh">
+    <None Include="scripts\generate_fix_db.sh">
       <Filter>scripts</Filter>
     </None>
   </ItemGroup>

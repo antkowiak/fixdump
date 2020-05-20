@@ -146,7 +146,7 @@
     <None Include="fix_messages_5_0.json" />
     <None Include="Makefile" />
     <None Include="README.md" />
-    <None Include="scripts\generate_header.sh" />
+    <None Include="scripts\generate_fix_db.sh" />
     <None Include="scripts\process.sh" />
     <None Include="src\.clang-format" />
     <None Include="TODO.md" />
