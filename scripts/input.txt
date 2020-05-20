@@ -1,11 +1,11 @@
-0 = Daily Open / Close / Settlement entry
+D = News Dissemination
 
-1 = Session Open / Close / Settlement entry
+E = Order Influx
 
-2 = Delivery Settlement entry
+I = Order Imbalance
 
-3 = Expected entry
+M = Additional Information
 
-4 = Entry from previous business day
+P = New Pending
 
-5 = Theoretical Price value
+X = Equipment Changeover
