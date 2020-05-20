@@ -8,7 +8,7 @@ namespace rda
 {
     class fix_db
     {
-    public: 
+    public:
         static std::string get()
         {
             static std::stringstream ss;
@@ -2353,10 +2353,8 @@ namespace rda
 }
                 )RAW_DELIM";
             }
-            
-        return ss.str();
+
+            return ss.str();
         }
-
     };
-}
-
+} // namespace rda
