@@ -8,7 +8,10 @@ then
     exit
 fi
 
+# Truncate the output file to start empty
 echo "" > "${OUTPUT_FILE}"
+
+# Output the C++ code for this file
 echo "#pragma once" >> "${OUTPUT_FILE}"
 echo "" >> "${OUTPUT_FILE}"
 echo "#include <sstream>" >> "${OUTPUT_FILE}"
@@ -27,6 +30,9 @@ echo "            {" >> "${OUTPUT_FILE}"
 
 echo "                ss << R\"RAW_DELIM("  >> "${OUTPUT_FILE}"
 
+# Some C++ compilers limit the length of string literals.
+# This will break up the json data into several chunks,
+# and then put them into a singleton static stringstream.
 COUNT=0
 cat "${INPUT_FILE}" | while read line
 do
@@ -44,12 +50,12 @@ echo "                )RAW_DELIM\";" >> "${OUTPUT_FILE}"
 
 echo "            }" >> "${OUTPUT_FILE}"
 echo "            " >> "${OUTPUT_FILE}"
-echo "        return ss.str();" >> "${OUTPUT_FILE}"
+echo "            return ss.str();" >> "${OUTPUT_FILE}"
 echo "        }" >> "${OUTPUT_FILE}"
-echo "" >> "${OUTPUT_FILE}"
 echo "    };" >> "${OUTPUT_FILE}"
 echo "}" >> "${OUTPUT_FILE}"
 echo "" >> "${OUTPUT_FILE}"
 
+# Convert line endings
 dos2unix "${OUTPUT_FILE}"
 
