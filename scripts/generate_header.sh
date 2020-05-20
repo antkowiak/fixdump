@@ -9,6 +9,47 @@ then
 fi
 
 echo "" > "${OUTPUT_FILE}"
-
 echo "#pragma once" >> "${OUTPUT_FILE}"
+echo "" >> "${OUTPUT_FILE}"
+echo "#include <sstream>" >> "${OUTPUT_FILE}"
+echo "#include <string>" >> "${OUTPUT_FILE}"
+echo "" >> "${OUTPUT_FILE}"
+echo "namespace rda" >> "${OUTPUT_FILE}"
+echo "{" >> "${OUTPUT_FILE}"
+echo "    class fix_db" >> "${OUTPUT_FILE}"
+echo "    {" >> "${OUTPUT_FILE}"
+echo "    public: " >> "${OUTPUT_FILE}"
+echo "        static std::string get()" >> "${OUTPUT_FILE}"
+echo "        {" >> "${OUTPUT_FILE}"
+echo "            static std::stringstream ss;" >> "${OUTPUT_FILE}"
+echo "            if (ss.str().empty())" >> "${OUTPUT_FILE}"
+echo "            {" >> "${OUTPUT_FILE}"
+
+echo "                ss << R\"RAW_DELIM("  >> "${OUTPUT_FILE}"
+
+COUNT=0
+cat "${INPUT_FILE}" | while read line
+do
+    COUNT=$(( ${COUNT} + 1 ))
+    if [[ $(( ${COUNT} % 500 )) == 0 ]]
+    then
+        COUNT=0;
+        echo "                )RAW_DELIM\";" >> "${OUTPUT_FILE}"
+        echo "                ss << R\"RAW_DELIM(" >> "${OUTPUT_FILE}"
+    fi
+        echo "${line}" >> "${OUTPUT_FILE}" >> "${OUTPUT_FILE}"
+done
+
+echo "                )RAW_DELIM\";" >> "${OUTPUT_FILE}"
+
+echo "            }" >> "${OUTPUT_FILE}"
+echo "            " >> "${OUTPUT_FILE}"
+echo "        return ss.str();" >> "${OUTPUT_FILE}"
+echo "        }" >> "${OUTPUT_FILE}"
+echo "" >> "${OUTPUT_FILE}"
+echo "    };" >> "${OUTPUT_FILE}"
+echo "}" >> "${OUTPUT_FILE}"
+echo "" >> "${OUTPUT_FILE}"
+
+dos2unix "${OUTPUT_FILE}"
 

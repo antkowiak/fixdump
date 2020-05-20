@@ -13,7 +13,6 @@
 
 #include "algorithm_rda.h"
 #include "cmdline_options.h"
-#include "fileio.h"
 #include "fix_message.h"
 #include "fix_message_util.h"
 #include "json.h"

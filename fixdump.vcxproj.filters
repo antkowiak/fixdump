@@ -35,6 +35,9 @@
     <None Include="scripts\process.sh">
       <Filter>scripts</Filter>
     </None>
+    <None Include="scripts\generate_header.sh">
+      <Filter>scripts</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\algorithm_rda.h">
@@ -62,6 +65,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\platform_defs_windows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fix_db.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
