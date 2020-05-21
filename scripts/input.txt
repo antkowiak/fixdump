@@ -1,11 +1,7 @@
-D = News Dissemination
+A = Accepted
 
-E = Order Influx
+H = Held
 
-I = Order Imbalance
+N = Reminder - i.e. Registration Instructions are still outstanding
 
-M = Additional Information
-
-P = New Pending
-
-X = Equipment Changeover
+R = Rejected

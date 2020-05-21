@@ -2323,6 +2323,474 @@
       "M": "Additional Information",
       "P": "New Pending",
       "X": "Equipment Changeover"
+    },
+    "328": {
+      "N": "Halt was not related to a halt of the common stock",
+      "Y": "Halt was due to common stock being halted"
+    },
+    "329": {
+      "N": "Halt was not related to a halt of the related security",
+      "Y": "Halt was due to related security being halted"
+    },
+    "334": {
+      "1": "Cancel",
+      "2": "Error",
+      "3": "Correction"
+    },
+    "338": {
+      "1": "Electronic",
+      "2": "Open Outcry",
+      "3": "Two Party"
+    },
+    "339": {
+      "1": "Testing",
+      "2": "Simulated",
+      "3": "Production"
+    },
+    "340": {
+      "0": "Unknown",
+      "1": "Halted",
+      "2": "Open",
+      "3": "Closed",
+      "4": "Pre-Open",
+      "5": "Pre-Close",
+      "6": "Request Rejected"
+    },
+    "368": {
+      "1": "Unknown symbol (security)",
+      "2": "Exchange (security) closed",
+      "3": "Quote exceeds limit",
+      "4": "Too late to enter",
+      "5": "Unknown quote",
+      "6": "Duplicate quote",
+      "7": "Invalid bid/ask spread",
+      "8": "Invalid price",
+      "9": "Not authorized to quote security",
+      "99": "Other"
+    },
+    "373": {
+      "0": "Invalid Tag Number",
+      "1": "Required Tag Missing",
+      "10": "SendingTime <52> accuracy problem",
+      "11": "Invalid MsgType <35>",
+      "12": "XML Validation Error",
+      "13": "Tag appears more than once",
+      "14": "Tag specified out of required order",
+      "15": "Repeating group fields out of order",
+      "16": "Incorrect NumInGroup count for repeating group",
+      "17": "Non 'Data' value includes field delimiter (<SOH> character)",
+      "18": "Invalid/Unsupported Application Version",
+      "2": "Tag not defined for this message type",
+      "3": "Undefined tag",
+      "4": "Tag specified without a value",
+      "5": "Value is incorrect (out of range) for this tag",
+      "6": "Incorrect data format for value",
+      "7": "Decryption problem",
+      "8": "Signature problem",
+      "9": "CompID problem",
+      "99": "Other"
+    },
+    "374": {
+      "C": "Cancel",
+      "N": "New"
+    },
+    "377": {
+      "N": "Was not solicited",
+      "Y": "Was solicited"
+    },
+    "378": {
+      "0": "GT corporate action",
+      "1": "GT renewal / restatement (no corporate action)",
+      "10": "Warehouse Recap",
+      "11": "Peg Refresh",
+      "2": "Verbal change",
+      "3": "Repricing of order",
+      "4": "Broker option",
+      "5": "Partial decline of OrderQty (e.g. exchange initiated partial cancel)",
+      "6": "Cancel on Trading Halt",
+      "7": "Cancel on System Failure",
+      "8": "Market (Exchange) option",
+      "9": "Canceled, not best",
+      "99": "Other"
+    },
+    "380": {
+      "0": "Other",
+      "1": "Unknown ID",
+      "18": "Invalid price increment",
+      "2": "Unknown Security",
+      "3": "Unknown Message Type",
+      "4": "Application not available",
+      "5": "Conditionally required field missing",
+      "6": "Not Authorized",
+      "7": "DeliverTo firm not available at this time"
+    },
+    "385": {
+      "R": "Receive",
+      "S": "Send"
+    },
+    "388": {
+      "0": "Related to displayed price",
+      "1": "Related to market price",
+      "2": "Related to primary price",
+      "3": "Related to local primary price",
+      "4": "Related to midpoint price",
+      "5": "Related to last trade price",
+      "6": "Related to VWAP",
+      "7": "Average Price Guarantee"
+    },
+    "394": {
+      "1": "'Non Disclosed' style (e.g. US/European)",
+      "2": "'Disclosed' style (e.g. Japanese)",
+      "3": "No bidding process"
+    },
+    "399": {
+      "1": "Sector",
+      "2": "Country",
+      "3": "Index"
+    },
+    "401": {
+      "1": "Side Value 1",
+      "2": "Side Value 2"
+    },
+    "409": {
+      "1": "5-day moving average",
+      "2": "20-day moving average",
+      "3": "Normal market size",
+      "4": "Other"
+    },
+    "411": {
+      "N": "False",
+      "Y": "True"
+    },
+    "414": {
+      "1": "Buy-side explicitly requests status using Statue Request (default), the sell-side firm can, however, send a DONE status List Status Response in an unsolicited fashion",
+      "2": "Sell-side periodically sends status using List Status. Period optionally specified in ProgressPeriod.",
+      "3": "Real-time execution reports (to be discourage)"
+    },
+    "416": {
+      "1": "Net",
+      "2": "Gross"
+    },
+    "418": {
+      "A": "Agency",
+      "G": "VWAP Guarantee",
+      "J": "Guaranteed Close",
+      "R": "Risk Trade"
+    },
+    "419": {
+      "2": "Closing price at morning session",
+      "3": "Closing price",
+      "4": "Current price",
+      "5": "SQ",
+      "6": "VWAP through a day",
+      "7": "VWAP through a morning session",
+      "8": "VWAP through an afternoon session",
+      "9": "VWAP through a day except 'YORI' (an opening auction)",
+      "A": "VWAP through a morning session except 'YORI' (an opening auction)",
+      "B": "VWAP through an afternoon session except 'YORI' (an opening auction)",
+      "C": "Strike",
+      "D": "Open",
+      "Z": "Others"
+    },
+    "423": {
+      "1": "Percentage (i.e. percent of par) (often called 'dollar price' for fixed income)",
+      "10": "Fixed cabinet trade price (primarily for listed futures and options)",
+      "11": "Variable cabinet trade price (primarily for listed futures and options)",
+      "13": "Product ticks in halfs",
+      "14": "Product ticks in fourths",
+      "15": "Product ticks in eights",
+      "16": "Product ticks in sixteenths",
+      "17": "Product ticks in thirty-seconds",
+      "18": "Product ticks in sixty-forths",
+      "19": "Product ticks in one-twenty-eights",
+      "2": "Per unit (i.e. per share or contract)",
+      "3": "Fixed amount (absolute value)",
+      "4": "Discount - percentage points below par",
+      "5": "Premium - percentage points over par",
+      "6": "Spread (basis points spread)",
+      "7": "TED Price",
+      "8": "TED Yield",
+      "9": "Yield"
+    },
+    "427": {
+      "0": "Book out all trades on day of execution",
+      "1": "Accumulate exectuions until forder is filled or expires",
+      "2": "Accumulate until verballly notified otherwise"
+    },
+    "429": {
+      "1": "Ack",
+      "2": "Response",
+      "3": "Timed",
+      "4": "Exec Started",
+      "5": "All Done",
+      "6": "Alert"
+    },
+    "430": {
+      "1": "Net",
+      "2": "Gross"
+    },
+    "431": {
+      "1": "In bidding process",
+      "2": "Received for execution",
+      "3": "Executing",
+      "4": "Cancelling",
+      "5": "Alert",
+      "6": "All Done",
+      "7": "Reject"
+    },
+    "433": {
+      "1": "Immediate",
+      "2": "Wait for Execut Instruction (i.e. a List Execut message or phone call before proceeding with execution of the list)",
+      "3": "Exchange/switch CIV order - Sell driven",
+      "4": "Exchange/switch CIV order - Buy driven, cash top-up (i.e. additional cash will be provided to fulfill the order)",
+      "5": "Exchange/switch CIV order - Buy driven, cash withdraw (i.e. additional cash will not be provided to fulfill the order)"
+    },
+    "434": {
+      "1": "Order cancel request",
+      "2": "Order cancel/replace request"
+    },
+    "442": {
+      "1": "Single security (defualt if not specified)",
+      "2": "Individual leg of a multi=leg security",
+      "3": "Multi-leg security"
+    },
+    "447": {
+      "1": "Korean Investor ID",
+      "2": "Taiwanese Qualified Foreign Investor ID QFII/FID",
+      "3": "Taiwanese Trading Acct",
+      "4": "Malaysian Central Depository (MCD) number",
+      "5": "Chinese Investor ID",
+      "6": "UK National Insurance or Pension Number",
+      "7": "US Social Security Number",
+      "8": "US Employer or Tax ID Number",
+      "9": "Australian Business Number",
+      "A": "Australian Tax File Number",
+      "B": "BIC (Bank Identification Code - SWIFT managed) code (ISO9362 - See 'Appendix 6-B')",
+      "C": "Generally accepted market participant identifier (e.g. NASD mnemonic)",
+      "D": "Proprietary / Custom code",
+      "E": "ISO Country Code",
+      "F": "Settlement Entity Location (note if Local Market Settlement use 'E=ISO Country Code') (see 'Appendix 6-G' for valid values)",
+      "G": "MIC (ISO 10383 - Market Identificer Code) (See 'Appendix 6-C')",
+      "H": "CSD participant/member code (e.g. Euroclear, DTC, CREST or Kassenverein number)",
+      "I": "Directed broker three character acronym as defined in ISITC 'ETC Best Practice' guidelines document"
+    },
+    "452": {
+      "1": "Executing Firm (formerly FIX 4.2 ExecBroker)",
+      "10": "Settlement Location (formerly FIX 4.2 SettlLocation)",
+      "11": "Order Origination Trader (associated with Order Origination Firm - i.e. trader who initiates/submits the order)",
+      "12": "Executing Trader (associated with Executing Firm - actually executes)",
+      "13": "Order Origination Firm (e.g. buy-side firm)",
+      "14": "Giveup Clearing Firm (firm to which trade is given up)",
+      "15": "Correspondent Clearing Firm",
+      "16": "Executing System",
+      "17": "Contra Firm",
+      "18": "Contra Clearing Firm",
+      "19": "Sponsoring Firm",
+      "2": "Broker of Credit (formerly FIX 4.2 BrokerOfCredit)",
+      "20": "Underlying Contra Firm",
+      "21": "Clearing Organization",
+      "22": "Exchange",
+      "24": "Customer Account",
+      "25": "Correspondent Clearing Organization",
+      "26": "Correspondent Broker",
+      "27": "Buyer/Seller (Receiver/Deliverer)",
+      "28": "Custodian",
+      "29": "Intermediary",
+      "3": "Client ID (formerly FIX 4.2 ClientID)",
+      "30": "Agent",
+      "31": "Sub-custodian",
+      "32": "Beneficiary",
+      "33": "Interested party",
+      "34": "Regulatory body",
+      "35": "Liquidity provider",
+      "36": "Entering trader",
+      "37": "Contra trader",
+      "38": "Position account",
+      "39": "Contra Investor ID",
+      "4": "Clearing Firm (formerly FIX 4.2 ClearingFirm)",
+      "40": "Transfer to Firm",
+      "41": "Contra Position Account",
+      "42": "Contra Exchange",
+      "43": "Internal Carry Account",
+      "44": "Order Entry Operator ID",
+      "45": "Secondary Account Number",
+      "46": "Foriegn Firm",
+      "47": "Third Party Allocation Firm",
+      "48": "Claiming Account",
+      "49": "Asset Manager",
+      "5": "Investor ID",
+      "50": "Pledgor Account",
+      "51": "Pledgee Account",
+      "52": "Large Trader Reportable Account",
+      "53": "Trader mnemonic",
+      "54": "Sender Location",
+      "55": "Session ID",
+      "56": "Acceptable Counterparty",
+      "57": "Unacceptable Counterparty",
+      "58": "Entering Unit",
+      "59": "Executing Unit",
+      "6": "Introducing Firm",
+      "60": "Introducing Broker",
+      "61": "Quote originator",
+      "62": "Report originator",
+      "63": "Systematic internaliser (SI)",
+      "64": "Multilateral Trading Facility (MTF)",
+      "65": "Regulated Market (RM)",
+      "66": "Market Maker",
+      "67": "Investment Firm",
+      "68": "Host Competent Authority (Host CA)",
+      "69": "Home Competent Authority (Home CA)",
+      "7": "Entering Firm",
+      "70": "Competent Authority of the most relevant market in terms of liquidity (CAL)",
+      "71": "Competent Authority of the Transaction (Execution) Venue (CATV)",
+      "72": "Reporting intermediary (medium/vendor via which report has been published)",
+      "73": "Execution Venue",
+      "74": "Market data entry originator",
+      "75": "Location ID",
+      "76": "Desk ID",
+      "77": "Market data market",
+      "78": "Allocation Entity",
+      "8": "Locate / Lending Firm (for short-sales)",
+      "9": "Fund Manager Client ID (for CIV)"
+    },
+    "460": {
+      "1": "AGENCY",
+      "10": "MORTGAGE",
+      "11": "MUNICIPAL",
+      "12": "OTHER",
+      "13": "FINANCING",
+      "2": "COMMODITY",
+      "3": "CORPORATE",
+      "4": "CURRENCY",
+      "5": "EQUITY",
+      "6": "GOVERNMENT",
+      "7": "INDEX",
+      "8": "LOAN",
+      "9": "MONEYMARKET"
+    },
+    "464": {
+      "N": "Fales (Production)",
+      "Y": "True (Test)"
+    },
+    "465": {
+      "1": "SHARES",
+      "2": "BONDS",
+      "3": "CURRENTFACE",
+      "4": "ORIGINALFACE",
+      "5": "CURRENCY",
+      "6": "CONTRACTS",
+      "7": "OTHER",
+      "8": "PAR"
+    },
+    "468": {
+      "0": "Round to nearest",
+      "1": "Round down",
+      "2": "Round up"
+    },
+    "477": {
+      "1": "CREST",
+      "10": "BPAY",
+      "11": "High Value Clearing System HVACS",
+      "12": "Reinvest In Fund",
+      "2": "NSCC",
+      "3": "Euroclear",
+      "4": "Clearstream",
+      "5": "Cheque",
+      "6": "Telegraphic Transfer",
+      "7": "Fed Wire",
+      "8": "Direct Credit (BECS, BACS)",
+      "9": "ACH Credit"
+    },
+    "480": {
+      "M": "No - Waiver agreement",
+      "N": "No - Execution Only",
+      "O": "No - Institutional",
+      "Y": "Yes"
+    },
+    "481": {
+      "1": "Exempt - Below the Limit",
+      "2": "Exempt - Client Money Type exemption",
+      "3": "Exempt - Authorised Credit or financial institution",
+      "N": "Not Checked",
+      "Y": "Passed"
+    },
+    "484": {
+      "B": "Bid price",
+      "C": "Creation price",
+      "D": "Creation price plus adjustment percent",
+      "E": "Creation price plus adjustment amount",
+      "O": "Offer price",
+      "P": "Offer price minus adjustment percent",
+      "Q": "Offer price minus adjustment amount",
+      "S": "Single price"
+    },
+    "487": {
+      "0": "New",
+      "1": "Cancel",
+      "2": "Replace",
+      "3": "Release",
+      "4": "Reverse",
+      "5": "Cancel Due To Back Out of Trade"
+    },
+    "492": {
+      "1": "CREST",
+      "10": "Direct Credit (BECS)",
+      "11": "Credit Card",
+      "12": "ACH Debit",
+      "13": "ACH Credit",
+      "14": "BPAY",
+      "15": "High Value Clearing System (HVACS)",
+      "2": "NSCC",
+      "3": "Euroclear",
+      "4": "Clearstream",
+      "5": "Cheque",
+      "6": "Telegraphic Transfer",
+      "7": "Fed Wire",
+      "8": "Debit Card",
+      "9": "Direct Debit (BECS)"
+    },
+    "495": {
+      "0": "None/Not Applicable (default)",
+      "1": "Maxi ISA (UK)",
+      "10": "Employee - current year (US)",
+      "11": "Employer - prior year (US)",
+      "12": "Employer - current year (US)",
+      "13": "Non-fund prototype IRA (US)",
+      "14": "Non-fund qualified plan (US)",
+      "15": "Defined contribution plan (US)",
+      "16": "Individual Retirement Account (US)",
+      "17": "Individual Retirement Account - Rollover (US)",
+      "18": "KEOGH (US)",
+      "19": "Profit Sharing Plan (US)",
+      "2": "TESSA (UK)",
+      "20": "401(k) (US)",
+      "21": "Self-directed IRA (US)",
+      "22": "403(b) (US)",
+      "23": "457 (US)",
+      "24": "Roth IRA (Fund Prototype) (US)",
+      "25": "Roth IRA (Non-prototype) (US)",
+      "26": "Roth Conversion IRA (Fund Prototype) (US)",
+      "27": "Roth Conversion IRA (Non-prototype) (US)",
+      "28": "Education IRA (Fund Prototype) (US)",
+      "29": "Education IRA (Non-prototype) (US)",
+      "3": "Mini Cash ISA (UK)",
+      "4": "Mini Stocks And Shares ISA (UK)",
+      "5": "Mini Insurance ISA (UK)",
+      "6": "Current Year Payment (US)",
+      "7": "Prior Year Payment (US)",
+      "8": "Asset Transfer (US)",
+      "9": "Employee - prior year (US)",
+      "999": "Other"
+    },
+    "497": {
+      "N": "No",
+      "Y": "Yes"
+    },
+    "506": {
+      "A": "Accepted",
+      "H": "Held",
+      "N": "Reminder - i.e. Registration Instructions are still outstanding",
+      "R": "Rejected"
     }
   }
 }
