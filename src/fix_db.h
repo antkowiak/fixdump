@@ -2818,6 +2818,303 @@ namespace rda
 "H": "Held",
 "N": "Reminder - i.e. Registration Instructions are still outstanding",
 "R": "Rejected"
+},
+"507": {
+"1": "Invalid/unacceptable Account Type",
+"10": "Invalid/unaceeptable Investor ID Source",
+"11": "Invalid/unacceptable Date Of Birth",
+"12": "Invalid/unacceptable Investor Country Of Residence",
+"13": "Invalid/unacceptable No Distrib Instns",
+"14": "Invalid/unacceptable Distrib Percentage",
+"15": "Invalid/unacceptable Distrib Payment Method",
+"16": "Invalid/unacceptable Cash Distrib Agent Acct Name",
+"17": "Invalid/unacceptable Cash Distrib Agent Code",
+"18": "Invalid/unacceptable Cash Distrib Agent Acct Num",
+"2": "Invalid/unacceptable Tax Exempt Type",
+"3": "Invalid/unacceptable Ownership Type",
+"4": "Invalid/unacceptable No Reg Details",
+"5": "Invalid/unacceptable Reg Seq No",
+"6": "Invalid/unacceptable Reg Details",
+"7": "Invalid/unacceptable Mailing Details",
+"8": "Invalid/unacceptable Mailing Instructions",
+"9": "Invalid/unacceptable Investor ID",
+"99": "Other"
+},
+"514": {
+"0": "New",
+"1": "Replace",
+"2": "Cancel"
+},
+"517": {
+"2": "Joint Trustees",
+"J": "Joint Investors",
+"T": "Tenants in Common"
+},
+"519": {
+"1": "Commission amount (actual)",
+"10": "Exit Charge Percent",
+"11": "Fund-Based Renewal Commission Percent (a.k.a. Trail commission)",
+"12": "Projected Fund Value (i.e. for investments intended to realise or exceed a specific future value)",
+"13": "Fund-Based Renewal Commission Amount (based on Order value)",
+"14": "Fund-Based Renewal Commission Amount (based on Projected Fund value)",
+"15": "Net Settlement Amount",
+"2": "Commission percent (actual)",
+"3": "Initial Charge Amount",
+"4": "Initial Charge Percent",
+"5": "Discount Amount",
+"6": "Discount Percent",
+"7": "Dilution Levy Amount",
+"8": "Dilution Levy Percent",
+"9": "Exit Charge Amount"
+},
+"522": {
+"1": "Individual Investor",
+"10": "Networking Sub-account",
+"11": "Non-profit organization",
+"12": "Corporate Body",
+"13": "Nominee",
+"2": "Public Company",
+"3": "Private Company",
+"4": "Individual Trustee",
+"5": "Company Trustee",
+"6": "Pension Plan",
+"7": "Custodian Under Gifts to Minors Act",
+"8": "Trusts",
+"9": "Fiduciaries"
+},
+"528": {
+"A": "Agency",
+"G": "Proprietary",
+"I": "Individual",
+"P": "Principal (Note for CMS purposes, 'Principal' includes 'Proprietary')",
+"R": "Riskless Principal",
+"W": "Agent for Other Member"
+},
+"529": {
+"1": "Program Trade",
+"2": "Index Arbitrage",
+"3": "Non-Index Arbitrage",
+"4": "Competing Market Maker",
+"5": "Acting as Market Maker or Specialist in the security",
+"6": "Acting as Market Maker of Specialist in the underlying security of a derivative seucirty",
+"7": "Foreign Entity (of foreign government or regulatory jurisdiction)",
+"8": "External Market Participant",
+"9": "Extneral Inter-connected Market Linkage",
+"A": "Riskless Arbitrage"
+},
+"530": {
+"1": "Cancel orders for a security",
+"2": "Cancel orders for an underlying security",
+"3": "Cancel orders for a Product",
+"4": "Cancel orders for a CFICode",
+"5": "Cancel orders for a SecurityType",
+"6": "Cancel orders for a trading session",
+"7": "Cancel all orders"
+},
+"531": {
+"0": "Cancel Request Rejected - See MassCancelRejectReason (532)",
+"1": "Cancel orders for a security",
+"2": "Cancel orders for an Underlying Security",
+"3": "Cancel orders for a Product",
+"4": "Cancel orders for a CFICode",
+"5": "Cancel orders for a SecurityType",
+"6": "Cancel orders for a trading session",
+"7": "Cancel all orders"
+},
+"532": {
+"0": "Mass Cancel Not Supported",
+"1": "Invalid or Unknown Security",
+"2": "Invalid or Unkown Underlying security",
+"3": "Invalid or Unknown Product",
+"4": "Invalid or Unknown CFICode",
+"5": "Invalid or Unknown SecurityType",
+"6": "Invalid or Unknown Trading Session",
+"99": "Other"
+},
+"537": {
+"0": "Indicative",
+"1": "Tradeable",
+"2": "Restricted Tradeable",
+"3": "Counter (tradeable)"
+},
+"544": {
+"1": "Cash",
+"2": "Margin Open",
+"3": "Margin Close"
+},
+"546": {
+"1": "Local Market (Exchange, ECN, ATS)",
+"2": "National",
+"3": "Global"
+},
+"547": {
+"N": "Server must send an explicit delete for bids or offers falling outside the requested MarketDepth of the request",
+"Y": "Client has responsibility for implicitly deleting bids or offers falling outside the MarketDepth of the request"
+},
+"549": {
+"1": "Cross AON - cross tade which is executed complete or not. Both sides are treated in the same manner. This is equivalent to an 'All or None'.",
+"2": "Cross IOC - cross trade which is executed partially and the rest is cancelled. One side is fully executed, the other side is partially executed with the remainder being cancelled. This is equivalent to an IOC on the other side. Note: CrossPrioritization (550) field may be used to indicate which side should fully execute in this scenario.",
+"3": "Cross One Side - cross trade which is partially executed with the unfilled portions remaining active.. One side of the corss is fully executed (as denoted by the CrossPrioritization (550) field), but the unfilled portion remains active.",
+"4": "Cross Same Price - cross trade is executed with existing orders with the same price. In this case other orders exist with the same price, the quantity of the Cross is executed against the existing orders and quotes, the remainder of the corss is executed against the other side of the cross. The two sides potentially have different quantities."
+},
+"550": {
+"0": "None",
+"1": "Buy side is prioritized",
+"2": "Sell side is prioritized"
+},
+"552": {
+"1": "One Side",
+"2": "Both Sides"
+},
+"559": {
+"0": "Symbol",
+"1": "SecurityType and/or CFICode",
+"2": "Product",
+"3": "TradingSessionID",
+"4": "All Securities"
+},
+"560": {
+"0": "Valid request",
+"1": "Invalid or unsupported request",
+"2": "No instruments found that match selection criteria",
+"3": "Not authorized to retrieve instrument data",
+"4": "Instrument data temporarily unavailable",
+"5": "Request for instrument data not supported"
+},
+"563": {
+"0": "Report by mulitleg security only (do not report legs)",
+"1": "Report by multileg security and by instrument legs belonging to the multileg security",
+"2": "Report by instrument legs belonging to the multileg security only (do not report status of multileg security)"
+},
+"567": {
+"1": "Unknown or invalid TradingSessionID",
+"99": "Other"
+},
+"569": {
+"0": "All Trades",
+"1": "Matched trades matching criteria provided on request (Parties, ExecID, TradeID, OrderID, Instrument, InputSource, etc.)",
+"2": "Unmatched trades that match criteria",
+"3": "Unreported trades that match criteria",
+"4": "Advisories that match criteria"
+},
+"570": {
+"N": "Not reported to counterparty",
+"Y": "Perviously reported to counterparty"
+},
+"573": {
+"0": "Compared, matched or affirmed",
+"1": "Uncompared, unmatched, or unaffired",
+"2": "Advisory or alert"
+},
+"574": {
+"1": "One-Party Trade Report (privately negotiated trade)",
+"2": "Two-Party Trade Report (privately negotiated trade)",
+"3": "Confirmed Trade Report (reporting from recognized markets)",
+"4": "Auto-match",
+"5": "Cross Auction",
+"6": "Counter-Order Selection",
+"60": "One-Party Privately Negotiated Trade Report",
+"61": "Two-Party Privately Negotiated Trade Report",
+"62": "Continuous Auto-match",
+"63": "Cross Auction - General Purpose",
+"64": "Counter-Order Selection - General Purpose",
+"65": "Call Auction - General Purpose",
+"7": "Call Auction",
+"A1": "Exact match on Trade Date, Stock Symbol, Quantity, Price, Trade Type, and Special Trade Indicator plus four badges and execution time (within two-minute window)",
+"A2": "Exact match on Trade Date, Stock Symbol, Quantity, Price, Trade Type, and Special Trade Indicator, plus four badges",
+"A3": "Exact match on Trade Date, Stock Symbol, Quantity, Price, Trade Type, and Special Trade Indicator, plus two badges and execution time (within two-minute window)",
+"A4": "Exact match on Trade Date, Stock Symbol, Quantity, Price, Trade Type, and Special Trade Indicator, plus two badges",
+                )RAW_DELIM";
+                ss << R"RAW_DELIM(
+"A5": "Exact match on Trade Date, Stock Symbol, Quantity, Price, Trade Type, and Special Trade Indicator plus execution time (within two-minute window)",
+"AQ": "Compared records resulting from stamped advisories or specialist accepts/pair-offs",
+"M1": "Exact match on Trade Date, Stock Symbol, Quantity, Price, Trade Type, and Special Trade Indicator minus badges And times: ACT M1 match",
+"M2": "Summarized match minus badges and times: ACT M2 Match",
+"M3": "ACT Accepted Trade",
+"M4": "ACT Default Trade",
+"M5": "ACT Default After M2",
+"M6": "ACT M6 Match",
+"MT": "OCS Locked In: Non-ACT",
+"S1": "Summarized match using A1 exact match criteria except quantity is summarized",
+"S2": "Summarized match using A2 exact match criteria except quantity is summarized",
+"S3": "Summarized match using A3 exact match criteria except quantity is summarized",
+"S4": "Summarized match using A4 exact match criteria except quantity is summarized",
+"S5": "Summarized match using A5 exact match criteria except quantity is summarized"
+},
+"575": {
+"N": "Treat as round lot (default)",
+"Y": "Treat as odd lot"
+},
+"577": {
+"0": "Process normally",
+"1": "Exclude from all netting",
+"10": "Automatic give-up mode (trade give-up to the give-up destination number specified)",
+"11": "Qualified Service Representative QSR",
+"12": "Customer trade",
+"13": "Self clearing",
+"2": "Bilateral netting only",
+"3": "Ex clearing",
+"4": "Special trade",
+"5": "Multilateral netting",
+"6": "Clear against central counterparty",
+"7": "Exclude from central counterparty",
+"8": "Manual mode (pre-posting and/or pre-giveup)",
+"9": "Automatic posting mode (trade posting to the position account number specified)"
+},
+"581": {
+"1": "Account is carried on customer side of the books",
+"2": "Account is carried on non-customer side of books",
+"3": "House Trader",
+"4": "Floor Trader",
+"6": "Account is carried on non-customer side of books and is cross margined",
+"7": "Account is house trader and is cross margined",
+"8": "Joint back office account (JBO)"
+},
+"582": {
+"1": "Member trading for their own account",
+"2": "Clearing Firm trading for its proprietary account",
+"3": "Member trading for another member",
+"4": "All other"
+},
+"585": {
+"1": "Status for orders for a Security",
+"2": "Status for orders for an Underlying Security",
+"3": "Status for orders for a Product",
+"4": "Status for orders for a CFICode",
+"5": "Status for orders for a SecurityType",
+"6": "Status for orders for a trading session",
+"7": "Status for all orders",
+"8": "Status for orders for a PartyID"
+},
+"589": {
+"0": "Can trigger booking without reference to the order initiator ('auto')",
+"1": "Speak with order initiator before booking ('speak first')",
+"2": "Accumulate"
+},
+"590": {
+"0": "Each partial execution is a bookable unit",
+"1": "Aggregate partial executions on this order, and book one trade per order",
+"2": "Aggregate executions for this symbol, side, and settlement date"
+},
+"591": {
+"0": "Pro-rata",
+"1": "Do not pro-rata - discuss first"
+},
+"626": {
+"1": "Calculated (includes MiscFees and NetMoney <118>)",
+"10": "Reject",
+"11": "Accept Pending",
+"12": "Incomplete Group",
+"13": "Complete Group",
+"14": "Reversal Pending",
+"2": "Preliminary (without MiscFees and NetMoney <118>)",
+"3": "Sellside Calculated Using Preliminary (includes MiscFees and NetMoney <118>) (Replaced)",
+"4": "Sellside Calculated Without Preliminary (sent unsolicited by sellside, includes MiscFees and NetMoney <118>) (Replaced)",
+"5": "Ready-To-Book - Single Order",
+"6": "Buyside Ready-To-Book - Combined Set of Orders (Replaced)",
+"7": "Warehouse Instruction",
+"8": "Request to Intermediary",
+"9": "Accept"
 }
 }
 }

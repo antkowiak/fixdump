@@ -1,7 +1,27 @@
-A = Accepted
+1 = Calculated (includes MiscFees and NetMoney <118>)
 
-H = Held
+2 = Preliminary (without MiscFees and NetMoney <118>)
 
-N = Reminder - i.e. Registration Instructions are still outstanding
+3 = Sellside Calculated Using Preliminary (includes MiscFees and NetMoney <118>) (Replaced)
 
-R = Rejected
+4 = Sellside Calculated Without Preliminary (sent unsolicited by sellside, includes MiscFees and NetMoney <118>) (Replaced)
+
+5 = Ready-To-Book - Single Order
+
+6 = Buyside Ready-To-Book - Combined Set of Orders (Replaced)
+
+7 = Warehouse Instruction
+
+8 = Request to Intermediary
+
+9 = Accept
+
+10 = Reject
+
+11 = Accept Pending
+
+12 = Incomplete Group
+
+13 = Complete Group
+
+14 = Reversal Pending
