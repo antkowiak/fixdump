@@ -3115,6 +3115,237 @@ namespace rda
 "7": "Warehouse Instruction",
 "8": "Request to Intermediary",
 "9": "Accept"
+},
+"635": {
+"1": "1st year delegate trading for own account",
+"2": "2nd year delegate trading for own account",
+"3": "3rd year delegate trading for own account",
+"4": "4th year delegate trading for own account",
+"5": "5th year delegate trading for own account",
+"9": "6th year delegate trading for own account",
+"B": "CBOE Member",
+"C": "Non-member and Customer",
+"E": "Equity Member and Clearing Member",
+"F": "Full and Associate Member trading for own account and as floor brokers",
+"H": "106.H and 106.J firms",
+"I": "GIM, IDEM and COM Membership Interest Holders",
+"L": "Lessee 106.F Employees",
+"M": "All other ownership types"
+},
+"636": {
+"N": "Order has been accepted but not yet in a working state",
+"Y": "Order is currently being worked"
+},
+"638": {
+"0": "Priority unchanged",
+"1": "Lost Priority as result of order change"
+},
+"650": {
+"N": "Does not consitute a Legal Confirm",
+"Y": "Legal Confirm"
+},
+"653": {
+"0": "Pending Approval",
+"1": "Approved (Accepted)",
+"2": "Rejected",
+"3": "Unauthorized Request",
+"4": "Invalid Definition Request"
+},
+"658": {
+"1": "Unknown Symbol (Security)",
+"10": "Pass",
+"11": "Insufficient credit",
+"2": "Exchange (Security) Closed",
+"3": "Quote Request <R> Exceeds Limit",
+"4": "Too Late to enter",
+"5": "Invalid Price",
+"6": "Not Authorized To Request Quote",
+"7": "No Match For Inquiry",
+"8": "No Market For Instrument",
+"9": "No Inventory",
+"99": "Other"
+},
+"660": {
+"1": "BIC",
+"2": "SID Code",
+"3": "TFM (GSPTA)",
+"4": "OMGEO (Alert ID)",
+"5": "DTCC Code",
+"99": "Other (custom or proprietary)"
+},
+"665": {
+"1": "Received",
+"2": "Mismatched Account",
+"3": "Missing Settlement Instructions",
+"4": "Confirmed",
+"5": "Request Rejected"
+},
+"666": {
+"0": "New",
+"1": "Replace",
+"2": "Cancel"
+},
+"668": {
+"1": "Book Entry (default)",
+"2": "Bearer"
+},
+"690": {
+"1": "Par For Par",
+"2": "Modified Duration",
+"4": "Risk",
+"5": "Proceeds"
+},
+"692": {
+"1": "Percent (percent of par)",
+"10": "Yield",
+"2": "Per Share (e.g. cents per share)",
+"3": "Fixed Amount (absolute value)",
+"4": "Discount - percentage points below par",
+"5": "Premium - percentage points over par",
+"6": "Spread - basis points relative to benchmark",
+"7": "TED Price",
+"8": "TED Yield",
+"9": "Yield Spread (swaps)"
+},
+"694": {
+"1": "Hit/Lift",
+"2": "Counter",
+"3": "Expired",
+"4": "Cover",
+"5": "Done Away",
+"6": "Pass"
+},
+"703": {
+"ALC": "Allocation Trade Qty",
+"AS": "Option Assignment",
+"ASF": "As-of Trade Qty",
+"CAA": "Corporate Action Adjustment",
+"DLV": "Delivery Qty",
+"DN": "Delivery Notice Qty",
+"EP": "Exchange for Physical Qty",
+"ETR": "Electronic Trade Qty",
+"EX": "Option Exercise Qty",
+"FIN": "End-of-Day Qty",
+"IAS": "Intra-spread Qty",
+"IES": "Inter-spread Qty",
+"PA": "Adjustment Qty",
+"PIT": "Pit Trade Qty",
+"RCV": "Receive Quantity",
+"SOD": "Start-of-Day Qty",
+"SPL": "Integral Split",
+"TA": "Transaction from Assignment",
+"TOT": "Total Transaction Qty",
+"TQ": "Transaction Quantity",
+"TRF": "Transfer Trade Qty",
+"TX": "Transaction from Exercise",
+"XM": "Cross Margin Qty"
+},
+"706": {
+"0": "Submitted",
+"1": "Accepted",
+"2": "Rejected"
+},
+"707": {
+"CASH": "Cash Amount (Corporate Event)",
+"CRES": "Cash Residual Amount",
+"FMTM": "Final Mark-to-Market Amount",
+"IMTM": "Incremental Mark-to-Market Amount",
+"PREM": "Premium Amount",
+"SETL": "Settlement Value",
+"SMTM": "Start-of-Day Mark-to-Market Amount",
+"TVAR": "Trade Variation Amount",
+"VADJ": "Value Adjusted Amount"
+},
+"709": {
+"1": "Exercise",
+"2": "Do Not Exercise",
+"3": "Position Adjustment",
+"4": "Position Change Submission/Margin Disposition",
+"5": "Pledge",
+"6": "Large Trader Submission"
+},
+"712": {
+"1": "New - used to increment the overall transaction quantity",
+"2": "Replace - used to override the overall transaction quantity or specifi add messages based on the reference ID",
+"3": "Cancel - used to remove the overall transaction or specific add messages based on reference ID",
+"4": "Reverse - used to completelly back-out the transaction such that the transaction never existed"
+},
+"716": {
+"EOD": "End Of Day",
+"ETH": "Electronic Trading Hours",
+"ITD": "Intraday",
+"RTH": "Regular Trading Hours"
+},
+"718": {
+"0": "Process Request As Margin Disposition",
+"1": "Delta Plus",
+"2": "Delta Minus",
+"3": "Final"
+},
+"722": {
+"0": "Accepted",
+"1": "Accepted With Warnings",
+"2": "Rejected",
+"3": "Completed",
+"4": "Completed With Warnings"
+},
+"723": {
+"0": "Successful Completion - no warnings or errors",
+"1": "Rejected",
+"99": "Other"
+},
+"724": {
+"0": "Positions",
+"1": "Trades",
+"2": "Exercises",
+"3": "Assignments",
+"4": "Settlement Activity",
+"5": "Backout Message"
+},
+"725": {
+"0": "Inband - transport the request was sent over (default)",
+"1": "Out of Band - pre-arranged out-of-band delivery mechanizm (i.e. FTP, HTTP, NDM, etc.) between counterparties. Details specified via ResponseDestination (726)."
+},
+"728": {
+"0": "Valid request",
+"1": "Invalid or unsupported request",
+"2": "No positions found that match criteria",
+"3": "Not authorized to request positions",
+"4": "Request for position not supported",
+"99": "Other (use Text (58) in conjunction with this code for an explaination)"
+},
+"729": {
+"0": "Completed",
+"1": "Completed With Warnings",
+"2": "Rejected"
+},
+"731": {
+"1": "Final",
+"2": "Theoretical"
+},
+"744": {
+"P": "Pro-rata",
+"R": "Random"
+},
+"747": {
+"A": "Automatic",
+"M": "Manual"
+},
+"749": {
+"0": "Successful (default)",
+"1": "Invalid or unknown instrument",
+"2": "Invalid type of trade requested",
+"3": "Invalid parties",
+"4": "Invalid transport type requested",
+"5": "Invalid destination requested",
+"8": "TradeRequestType not supported",
+"9": "Unauthorized ror Trade Capture Report Request",
+"99": "Other"
+},
+"750": {
+"0": "Accepted",
+"1": "Completed",
+"2": "Rejected"
 }
 }
 }

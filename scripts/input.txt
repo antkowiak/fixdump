@@ -1,27 +1,7 @@
-1 = Calculated (includes MiscFees and NetMoney <118>)
+Valid values:
 
-2 = Preliminary (without MiscFees and NetMoney <118>)
+0 = Accepted
 
-3 = Sellside Calculated Using Preliminary (includes MiscFees and NetMoney <118>) (Replaced)
+1 = Completed
 
-4 = Sellside Calculated Without Preliminary (sent unsolicited by sellside, includes MiscFees and NetMoney <118>) (Replaced)
-
-5 = Ready-To-Book - Single Order
-
-6 = Buyside Ready-To-Book - Combined Set of Orders (Replaced)
-
-7 = Warehouse Instruction
-
-8 = Request to Intermediary
-
-9 = Accept
-
-10 = Reject
-
-11 = Accept Pending
-
-12 = Incomplete Group
-
-13 = Complete Group
-
-14 = Reversal Pending
+2 = Rejected
