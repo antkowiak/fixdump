@@ -3317,6 +3317,125 @@
       "0": "Accepted",
       "1": "Completed",
       "2": "Rejected"
+    },
+    "751": {
+      "0": "Successful (default)",
+      "1": "Invalid party information",
+      "2": "Unknown instrument",
+      "3": "Unauthorized to report trades",
+      "4": "Invalid trade type",
+      "99": "Other"
+    },
+    "752": {
+      "1": "Single Security (default if not specified)",
+      "2": "Individual leg of a multileg security",
+      "3": "Multileg Security"
+    },
+    "770": {
+      "1": "Execution Time",
+      "2": "Time In",
+      "3": "Time Out",
+      "4": "Broker Receipt",
+      "5": "Broker Execution",
+      "6": "Desk Receipt"
+    },
+    "773": {
+      "1": "Status",
+      "2": "Confirmation",
+      "3": "Confirmation Request Rejected (reason can be stated in Text (58) field)"
+    },
+    "774": {
+      "1": "Mismatched account",
+      "2": "Missing settlement instructions",
+      "99": "Other"
+    },
+    "775": {
+      "0": "Regular booking",
+      "1": "CFD (Contract for difference)",
+      "2": "Total Return Swap"
+    },
+    "780": {
+      "0": "Use default instructions",
+      "1": "Derive from parameters provided",
+      "2": "Full details provided",
+      "3": "SSI DB IDs provided",
+      "4": "Phone for instructions"
+    },
+    "787": {
+      "C": "Cash",
+      "S": "Securities"
+    },
+    "788": {
+      "1": "Overnight",
+      "2": "Term",
+      "3": "Flexible",
+      "4": "Open"
+    },
+    "792": {
+      "0": "Unable to process request",
+      "1": "Unknown account",
+      "2": "No matching settlement instructions found",
+      "99": "Other"
+    },
+    "794": {
+      "10": "Reject",
+      "11": "Accept Pending",
+      "12": "Complete",
+      "14": "Reverse Pending",
+      "2": "Preliminary Request to Intermediary",
+      "3": "Sellside Calculated Using Preliminary (includes MiscFees and NetMoney)",
+      "4": "Sellside Calculated Without Preliminary (sent unsolicited by sellside, includes MiscFees and NetMoney)",
+      "5": "Warehouse Recap",
+      "8": "Request to Intermediary",
+      "9": "Accept"
+    },
+    "796": {
+      "1": "Original details incomplete/incorrect",
+      "2": "Change in underlying order details",
+      "99": "Other"
+    },
+    "798": {
+      "1": "Account is carried pn customer side of books",
+      "2": "Account is carried on non-customer side of books",
+      "3": "House trader",
+      "4": "Floor trader",
+      "6": "Account is carried on non-customer side of books and is cross margined",
+      "7": "Account is house trader and is cross margined",
+      "8": "Joint back office account (JBO)"
+    },
+    "803": {
+      "1": "Firm",
+      "10": "Securities account number (for settlement instructions)",
+      "11": "Registration number (for settlement instructions and confirmations)",
+      "12": "Registered address (for confirmation purposes)",
+      "13": "Regulatory status (for confirmation purposes)",
+      "14": "Registration name (for settlement instructions)",
+      "15": "Cash account number (for settlement instructions)",
+      "16": "BIC",
+      "17": "CSD participant member code",
+      "18": "Registered address",
+      "19": "Fund account name",
+      "2": "Person",
+      "20": "Telex number",
+      "21": "Fax number",
+      "22": "Securities account name",
+      "23": "Cash account name",
+      "24": "Department",
+      "25": "Location desk",
+      "26": "Position account type",
+      "27": "Security locate ID",
+      "28": "Market maker",
+      "29": "Eligible counterparty",
+      "3": "System",
+      "30": "Professional client",
+      "31": "Location",
+      "32": "Execution venue",
+      "4": "Application",
+      "5": "Full legal name of firm",
+      "6": "Postal address",
+      "7": "Phone number",
+      "8": "Email address",
+      "9": "Contact name"
     }
   }
 }
